@@ -1,0 +1,344 @@
+{
+    font-family: Segoe UI;
+    font-size: 13px;
+    margin: 0px;
+    background: #fff;
+}
+
+.logo
+{
+    background: url(../images/mbmlogo.png) no-repeat;
+    width: 110px;
+    height: 130px;
+    float: left;
+}
+.menuitem
+{
+    width: 110px;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+}
+.menuseparator
+{
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+}
+.menuitem:hover
+{
+    width: 110px;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #d71703;
+}
+.menuitem a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.menuitem a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+.makecircle
+{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e3431d /*ac5*/;
+    border-radius: 100px;
+    border: solid 5px #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#bottomfooter
+{
+    background: #222;
+    width: 100%;
+    border-bottom: solid 1px #000;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Segoe UI;
+}
+
+#bottomfooter .girdbox
+{
+    float: left;
+    width: 300px;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#bottomfooter .girdbox > h3
+{
+    color: #ffffff;
+    font-weight: normal;
+    padding: 13px;
+    border-bottom: dashed 1px #777;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 20px;
+}
+#bottomfooter .girdbox > div > ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 6px;
+    line-height: 1.8em;
+}
+#bottomfooter .girdbox > div > ul > li
+{
+    background-image: url(../images/arrowh.png);
+    background-repeat: no-repeat;
+    background-position: 0px 4px;
+    padding-left: 24px;
+}
+#bottomfooter .girdbox > div > ul > li > a
+{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#bottomfooter .girdbox > div > ul > li > a:Hover
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+#bottomline
+{
+    border-top: solid 1px #333;
+    background: #111111;
+    overflow: hidden;
+    color: #BFBFBF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#bottomline ul
+{
+    text-align: center;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline;
+    width: 100%;
+}
+#bottomline ul > li
+{
+    border-left: 1px solid #BFBFBF;
+    display: inline;
+    list-style: none outside none;
+    padding: 0 10px;
+}
+#bottomline ul > li > a
+{
+    text-decoration: none;
+    color: #BFBFBF;
+}
+.backgroundclass
+{
+    background-color: #dcdcdc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .7;
+}
+/*
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    background-image: url(sqpurple.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+}
+*/
+
+.read
+{
+     text-decoration: none;
+    font-size: 16px;
+    color: #e3431d;
+  
+    padding: 3px 7px;
+   
+    text-align: center;
+   
+}
+.read:hover
+{
+    color:#ffffff;
+    border-radius:5px;
+    border: solid 1px #4c83e8;
+    -moz-box-shadow: 1px 1px 40px #728cbc;
+    -webkit-box-shadow: 1px 1px 40px #728cbc;
+    box-shadow: 1px 1px 40px #728cbc;
+    border-radius: 5px;
+    background: #6f9ae9;
+}
+
+/*Slider*/
+
+#slider
+{
+    /* You MUST specify the width and height */
+    width: 1006px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+#mask-gallery
+{
+    overflow: hidden;
+}
+
+#gallery
+{
+    /* Clear the list style */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 0; /* width = total items multiply with #mask gallery width */
+    overflow: hidden;
+}
+
+#gallery li
+{
+    /* float left, so that the items are arrangged horizontally */
+    float: left;
+}
+
+
+#mask-excerpt
+{
+    /* Set the position */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500px; /* width should be lesser than #slider width */
+    width: 300px;
+    overflow: hidden;
+}
+
+#excerpt
+{
+    /* Opacity setting for different browsers */
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    float: left; /* Clear the list style */
+    list-style: none;
+    margin: 0;
+    padding: 0; /* Set the position */
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0; /* Set the style */
+    background-color: #000;
+    overflow: hidden;
+    font-family: arial;
+    font-size: 18px;
+    text-align: justify;
+    color: #fff;
+}
+
+#excerpt li
+{
+    height: 460px;
+    padding: 80px 15px;
+}
+
+
+
+.clear
+{
+    clear: both;
+}
+
+
+
+/*endSlider*/
+
+
+
+.leftMenu
+{
+    padding: 10px;
+    border-bottom: solid 1px #c22701;
+    border-top: 1px solid #d27963;
+    background: url(../images/arrowh.png) no-repeat #e2441d 10px 12px;
+    color: #fff;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.leftMenu:Hover
+{
+    padding: 10px;
+    border-bottom: solid 1px #c22701;
+    border-top: 1px solid #d27963;
+    background: url(../images/arrowh.png) no-repeat #333 10px 12px;
+    color: #fff;
+    padding-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Button*/
+.graybutton
+{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #e3431d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: #fff;
+    border: solid 1px #c42904;
+   
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.graybutton:hover
+{
+   
+  -moz-box-shadow: 1px 1px 8px #c42904;
+	-webkit-box-shadow: 1px 1px 8px #c42904;
+	box-shadow: 1px 1px 8px #c42904;
+}
+
+.txtcontact
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    padding: 3px;
+    background: -moz-linear-gradient(top, #fff, #f6f6f6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f6f6f6));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#f6f6f6, GradientType=1)";
+    filter: progid:DXImageTransform.Microsoft.Gradient( StartColorStr= '#fff' , EndColorStr= '#f6f6f6' , GradientType=0);
+    color: #5f5e5e;
+    font-size: 14px;
+    width: 255px;
+    height: 20px;
+}
